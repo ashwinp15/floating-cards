@@ -1,0 +1,42 @@
+body {
+	 padding:0;
+	 margin:0;
+	 background-color: #17141d;
+	 color: white
+}
+
+.card-list {
+	 display:flex;
+	 padding:3rem;
+}
+
+.card {
+	 display:flex;
+	 padding:2rem;
+	 flex-direction:column;
+	 background: #17141d;
+	 box-shadow: -1rem 0.5rem 3rem black;
+	 width: 340px;
+	 height: 360px;
+	 border-radius:20px;
+
+	 transition: 0.2s
+}
+
+.card:hover {
+	 transform: translateY(2rem);
+}
+
+.card:not(:first-child) {
+	 margin-left: -100px;
+}
+
+.card:hover~.card {
+	 transform: translateX(100px);
+}
+
+.card:not(:first-child) {
+	 margin-left: -100px;
+}
+
+
