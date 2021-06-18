@@ -11,10 +11,10 @@ body {
 }
 
 .card {
-	 display:flex;
+	 /*display:flex;*/
 	 padding:2rem;
-	 flex-direction:column;
-	 background: #17141d;
+	 /*flex-direction:column;*/
+	 background: #18991d;
 	 box-shadow: -1rem 0.5rem 3rem black;
 	 width: 340px;
 	 height: 360px;
